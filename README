@@ -1,0 +1,9 @@
+This repository contains a variety of ONNX models used to test ML systems in the MPI-SWS Cloud Software Systems Research Group.
+
+Primarily we include the following:
+
+- Source ONNX models (or other source if they come from elsewhere)
+- Appropriate scripts (python, c++, whatever else) for compiling the model from source to platform-specific (e.g. TVM)
+- The compiled model binaries
+
+Our initial experiments are primarily focusing on ONNX as a source format for models, and TVM as the compiler, with NVidia GPUs as the compilation target.

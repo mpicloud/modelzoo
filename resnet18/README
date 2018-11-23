@@ -1,0 +1,7 @@
+resnet18 model taken from the ONNX model zoo: https://github.com/onnx/models/tree/master/models/image_classification/resnet
+
+Compiled models and the corresponding compilation scripts are located in subfolders.
+
+Compiled at commit # 59c70a0e5135de1a55ff2df99f654e13f2a3cef5 of the TVM repository
+
+Compiled for NVidia M40 Tesla GPU
